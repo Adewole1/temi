@@ -31,7 +31,7 @@ const Homepage = () => {
         : window.innerWidth > 1024 && window.innerWidth <= 1440
         ? "19%"
         : "16%",
-      "-50%",
+      "-35%",
     ]
   );
 
