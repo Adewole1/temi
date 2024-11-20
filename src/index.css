@@ -4,16 +4,30 @@
 
 @font-face {
   font-family: "Instrument";
+  src: url("/fonts/instrument/instrumentserif-regular.eot");
   src: local("instrumentserif-regular"), local("instrumentserif-regular"),
-    url("/fonts/instrument/instrumentserif-regular.ttf") format("truetype");
+    url("/fonts/instrument/instrumentserif-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/instrument/instrumentserif-regular.woff") format("woff"),
+    url("/fonts/instrument/instrumentserif-regular.otf") format("opentype"),
+    url("/fonts/instrument/instrumentserif-regular.ttf") format("truetype"),
+    url("/fonts/instrument/instrumentserif-regular.svg#svgFontName")
+      format("svg");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Instrument";
+  src: url("/fonts/instrument/instrumentserif-italic.eot");
   src: local("instrumentserif-italic"), local("instrumentserif-italic"),
-    url("/fonts/instrument/instrumentserif-italic.ttf") format("truetype");
+    url("/fonts/instrument/instrumentserif-italic.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/instrument/instrumentserif-italic.woff") format("woff"),
+    url("/fonts/instrument/instrumentserif-italic.otf") format("opentype"),
+    url("/fonts/instrument/instrumentserif-italic.ttf") format("truetype"),
+    url("/fonts/instrument/instrumentserif-italic.svg#svgFontName")
+      format("svg");
   font-weight: 400;
   font-style: italic;
 }
