@@ -25,8 +25,8 @@ const Applayout = () => {
 
   return (
     <div id="home" className="flex flex-col w-screen relative items-center">
-      <div className="sticky top-12 z-50 px-4 md:px-8 lg:px-0 mt-6 lg:mt-10 xl:mt-[3.25rem] w-screen flex items-center justify-center max-w-[1437.5px]">
-        <div className="w-full lg:w-[62.25rem] px-4 md:px-6 lg:px-8 py-5 lg:py-7 flex items-center justify-between backdrop-blur-2xl bg-[#484848]/20 rounded-xl">
+      <div className="sticky top-4 md:top-6 lg:top-8 2xl:top-12 z-50 px-4 md:px-8 lg:px-0 mt-6 lg:mt-10 xl:mt-[3.25rem] w-screen flex items-center justify-center max-w-[1437.5px]">
+        <div className="w-full lg:w-[62.25rem] px-4 2xl:px-8 py-3 lg:py-5 2xl:py-7 flex items-center justify-between backdrop-blur-2xl bg-[#484848]/20 rounded-xl">
           {window.location.pathname === "/" ? (
             <>
               <p className="uppercase !leading-normal text-lg lg:text-xl 2xl:text-2xl font-instrument">
@@ -109,6 +109,7 @@ const Applayout = () => {
               <HoverButton
                 bg={"bg-transparent"}
                 text={"text-white font-instrument fill-white"}
+                width={"w-16"}
                 link={"/"}
                 oldContent={
                   <div className="flex items-center flex-nowrap gap-0.5">
@@ -118,7 +119,7 @@ const Applayout = () => {
                         focusable="false"
                         viewBox="0 0 24 24"
                         color="rgb(255, 255, 255)"
-                        className="w-full h-full fill-white inline-block select-none flex-shrink-0"
+                        className="w-full h-full fill-white select-none flex-shrink-0"
                       >
                         <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
                       </svg>
@@ -139,9 +140,7 @@ const Applayout = () => {
                         <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
                       </svg>
                     </div>
-                    <p className="m-0 p-0 text-sm leading-tight mt-[1px]">
-                      Go Back
-                    </p>
+                    <p className="m-0 p-0 text-sm mt-[1px]">Go Back</p>
                   </div>
                 }
               />
