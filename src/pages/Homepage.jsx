@@ -189,7 +189,7 @@ const Homepage = () => {
         <section ref={targetRef} className="relative h-[200vh] bg-transparent">
           <div className="fade-effect fade-left"></div>
           <div className="fade-effect fade-right"></div>
-          <div className="flex flex-col items-start sticky top-40 md:top-64 lg:top-32 2xl:top-80 overflow-hidden no-scrollbar">
+          <div className="flex flex-col items-start sticky top-48 md:top-64 lg:top-32 2xl:top-80 overflow-hidden no-scrollbar">
             <motion.div
               style={{ x }}
               className="flex justify-start items-center gap-4 lg:gap-6"
