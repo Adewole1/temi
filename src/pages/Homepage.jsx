@@ -29,7 +29,7 @@ const Homepage = () => {
         : window.innerWidth > 640 && window.innerWidth <= 1024
         ? "29%"
         : window.innerWidth > 1024 && window.innerWidth <= 1440
-        ? "20%"
+        ? "10%"
         : "15%",
       "-50%",
     ]
