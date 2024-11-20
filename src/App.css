@@ -1,0 +1,141 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100%));
+  }
+}
+
+@keyframes scroll2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      calc(-100%)
+    ); /* Scroll through half the width of the combined list */
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#root {
+  margin: 0;
+  text-align: center;
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: clip;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scrollbar-color: rgba(18, 18, 18, 0);
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-container {
+  display: flex;
+  animation: scroll 180s linear infinite;
+  will-change: transform;
+}
+
+.scroll-wrapper {
+  display: flex;
+  width: calc(200%); /* Adjust according to the number of items */
+}
+
+.scroll-item {
+  flex-shrink: 0;
+}
+
+.scroll-item:hover {
+  transform: translateY(-16px);
+}
+
+.fade-effect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10%; /* Adjust the width of the fade effect */
+  z-index: 1;
+}
+.fade-left {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgba(18, 18, 18, 1) 20%,
+    rgba(18, 18, 18, 0) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.fade-right {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(18, 18, 18, 1) 20%,
+    rgba(18, 18, 18, 0) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.scroll-container2 {
+  display: flex;
+  animation: scroll2 30s linear infinite;
+  will-change: transform;
+}
+
+.wrapper2 {
+  display: flex;
+  width: calc(
+    200%
+  ); /* Double the width of the items to create the loop effect */
+}
+
+.item2 {
+  flex-shrink: 0;
+  /* width: 32px;
+  min-width: 32px; */
+}
+
+.animate-slideUp {
+  animation: slideUp 1s forwards;
+}
+
+.animate-slideDown {
+  animation: slideDown 1s forwards;
+}
+
+.header::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #fd5d00;
+}
+
+.header::selection {
+  color: white;
+  background: #fd5d00;
+}
