@@ -38,11 +38,11 @@ const Applayout = () => {
                   text="text-white"
                   width={"w-14"}
                   // link={"/#"}
-                  oldContent={"Home"}
+                  oldContent={<p onClick={() => goToSection("home")}>Home</p>}
                   newContent={
                     <p
                       onClick={() => goToSection("home")}
-                      className="m-0 p-0 text-sm text-[#FD5D00] font-medium hover:cursor-pointer"
+                      className="m-0 p-0 text-[#FD5D00] font-medium hover:cursor-pointer"
                     >
                       Home
                     </p>
@@ -54,11 +54,15 @@ const Applayout = () => {
                   text="text-white"
                   width={"w-28"}
                   // link={"/#studies"}
-                  oldContent={"Case Studies (04)"}
+                  oldContent={
+                    <p onClick={() => goToSection("studies")}>
+                      Case Studies (04)
+                    </p>
+                  }
                   newContent={
                     <p
                       onClick={() => goToSection("studies")}
-                      className="m-0 p-0 text-sm text-[#FD5D00] font-medium hover:cursor-pointer"
+                      className="m-0 p-0 text-[#FD5D00] font-medium hover:cursor-pointer"
                     >
                       Case Studies (04)
                     </p>
@@ -70,11 +74,11 @@ const Applayout = () => {
                   text="text-white"
                   width={"w-14"}
                   // link={"/#about"}
-                  oldContent={"About"}
+                  oldContent={<p onClick={() => goToSection("about")}>About</p>}
                   newContent={
                     <p
                       onClick={() => goToSection("about")}
-                      className="m-0 p-0 text-sm text-[#FD5D00] font-medium hover:cursor-pointer"
+                      className="m-0 p-0 text-[#FD5D00] font-medium hover:cursor-pointer"
                     >
                       About
                     </p>
@@ -86,11 +90,13 @@ const Applayout = () => {
                   text="text-white"
                   width={"w-14"}
                   // link={"#contact"}
-                  oldContent={"Contact"}
+                  oldContent={
+                    <p onClick={() => goToSection("contact")}>Contact</p>
+                  }
                   newContent={
                     <p
                       onClick={() => goToSection("contact")}
-                      className="m-0 p-0 text-sm text-[#FD5D00] font-medium hover:cursor-pointer"
+                      className="m-0 p-0 text-[#FD5D00] font-medium hover:cursor-pointer"
                     >
                       Contact
                     </p>
@@ -133,7 +139,9 @@ const Applayout = () => {
                         <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
                       </svg>
                     </div>
-                    <p className="m-0 p-0 text-sm leading-tight mt-[1px]">Go Back</p>
+                    <p className="m-0 p-0 text-sm leading-tight mt-[1px]">
+                      Go Back
+                    </p>
                   </div>
                 }
               />
@@ -142,11 +150,13 @@ const Applayout = () => {
                 text="text-white  font-instrument"
                 width={"w-16"}
                 // link={"#contact"}
-                oldContent={"Contact"}
+                oldContent={
+                  <p onClick={() => goToSection("contact")}>Contact</p>
+                }
                 newContent={
                   <p
                     onClick={() => goToSection("contact")}
-                    className="m-0 p-0 text-sm text-[#FD5D00] font-medium hover:cursor-pointer"
+                    className="m-0 p-0 text-[#FD5D00] font-medium hover:cursor-pointer"
                   >
                     Contact
                   </p>

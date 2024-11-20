@@ -70,7 +70,14 @@ const Homepage = () => {
               hoverBg={"hover:bg-white"}
               hoverText={"hover:text-gray-700"}
               // link={"#contact"}
-              oldContent={"Work with me"}
+              oldContent={
+                <div
+                  onClick={() => goToSection("contact")}
+                  className="flex items-center flex-nowrap gap-0.5"
+                >
+                  <p className="m-0 p-0 text-sm">Work with me</p>
+                </div>
+              }
               newContent={
                 <div
                   onClick={() => goToSection("contact")}
@@ -85,7 +92,9 @@ const Homepage = () => {
               bg="bg-white"
               text="text-gray-700"
               width={"w-44"}
-              oldContent={"View Case Studies"}
+              oldContent={
+                <p onClick={() => goToSection("studies")}>View Case Studies</p>
+              }
               newContent={
                 <p
                   onClick={() => goToSection("studies")}
