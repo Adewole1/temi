@@ -145,20 +145,25 @@ const Applayout = () => {
                 }
               />
               <HoverButton
-                bg="bg-transparent"
-                text="text-white  font-instrument"
-                width={"w-16"}
+                hoverBg={"hover:bg-white"}
+                hoverText={"hover:text-gray-700"}
                 // link={"#contact"}
                 oldContent={
-                  <p onClick={() => goToSection("contact")}>Contact</p>
+                  <div
+                    onClick={() => goToSection("contact")}
+                    className="flex items-center flex-nowrap gap-0.5"
+                  >
+                    <p className="m-0 p-0 text-sm">Work with me</p>
+                  </div>
                 }
                 newContent={
-                  <p
+                  <div
                     onClick={() => goToSection("contact")}
-                    className="m-0 p-0 text-[#FD5D00] font-medium hover:cursor-pointer"
+                    className="flex items-center flex-nowrap gap-0.5"
                   >
-                    Contact
-                  </p>
+                    <div className="bg-cover size-9 bg-no-repeat bg-[url('/src/assets/images/temi.jpeg')] rounded-[4px]"></div>
+                    <p className="m-0 p-0 text-sm">+ you = let's talk</p>
+                  </div>
                 }
               />
             </>
