@@ -111,7 +111,7 @@ const Homepage = () => {
             Companies I've Worked With
           </p>
 
-          <div className="relative flex flex-col w-screen max-w-[1440px] overflow-x-scroll no-scrollbar">
+          <div className="relative flex flex-col w-screen max-w-[90%] lg:max-w-[80%] 2xl:max-w-[1440px] overflow-x-scroll no-scrollbar">
             <div className="fade-effect fade-left"></div>
             <div className="fade-effect fade-right"></div>
             <div className="wrapper2" ref={scrollContainerRef}>
