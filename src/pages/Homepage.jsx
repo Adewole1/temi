@@ -209,18 +209,16 @@ const Homepage = () => {
                     <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40">
                       <a
                         href="/studies/medics"
-                        className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-300 ease-in-out"
+                        className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-1000 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
                       >
                         <svg
                           width="24"
                           height="24"
                           viewBox="0 0 24 24"
-                          fill="none"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
                             d="M12 19V5M12 5L5 12M12 5L19 12"
-                            stroke="#344054"
                             stroke-width="2"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -281,18 +279,16 @@ const Homepage = () => {
                     <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40">
                       <a
                         // href="/studies/ppn"
-                        className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-300 ease-in-out"
+                        className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-1000 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
                       >
                         <svg
                           width="24"
                           height="24"
                           viewBox="0 0 24 24"
-                          fill="none"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
                             d="M12 19V5M12 5L5 12M12 5L19 12"
-                            stroke="#344054"
                             stroke-width="2"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -311,7 +307,6 @@ const Homepage = () => {
                           width="16"
                           height="16"
                           viewBox="0 0 16 16"
-                          fill="none"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
@@ -350,18 +345,16 @@ const Homepage = () => {
                     <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40">
                       <a
                         // href="/studies/tracehut"
-                        className="bg-white hover:bg-[#ff8b48] rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-300 ease-in-out"
+                        className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-1000 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
                       >
                         <svg
                           width="24"
                           height="24"
                           viewBox="0 0 24 24"
-                          fill="none"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
                             d="M12 19V5M12 5L5 12M12 5L19 12"
-                            stroke="#344054"
                             stroke-width="2"
                             stroke-linecap="round"
                             stroke-linejoin="round"
