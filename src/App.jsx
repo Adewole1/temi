@@ -4,6 +4,8 @@ import Homepage from "./pages/Homepage";
 import Applayout from "./layout/Applayout";
 import Medics from "./pages/projects/Medics";
 
+import 'animate.css';
+
 function App() {
   return (
     <Routes>

@@ -70,12 +70,13 @@ const Homepage = () => {
               hoverBg={"hover:bg-white"}
               hoverText={"hover:text-gray-700"}
               // link={"#contact"}
+              height={"h-12"}
               oldContent={
                 <div
                   onClick={() => goToSection("contact")}
                   className="flex items-center flex-nowrap gap-0.5"
                 >
-                  <p className="m-0 p-0 text-sm">Work with me</p>
+                  <p className="m-0 p-0">Work with me</p>
                 </div>
               }
               newContent={
@@ -92,13 +93,14 @@ const Homepage = () => {
               bg="bg-white"
               text="text-gray-700"
               width={"w-44"}
+              height={"h-12"}
               oldContent={
                 <p onClick={() => goToSection("studies")}>View Case Studies</p>
               }
               newContent={
                 <p
                   onClick={() => goToSection("studies")}
-                  className="m-0 p-0 text-sm"
+                  className="m-0 p-0"
                 >
                   View Case Studies
                 </p>
@@ -209,7 +211,7 @@ const Homepage = () => {
                     <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40">
                       <a
                         href="/studies/medics"
-                        className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-1000 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
+                        className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-500 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
                       >
                         <svg
                           width="24"
@@ -279,7 +281,7 @@ const Homepage = () => {
                     <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40">
                       <a
                         // href="/studies/ppn"
-                        className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-1000 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
+                        className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-500 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
                       >
                         <svg
                           width="24"
@@ -345,7 +347,7 @@ const Homepage = () => {
                     <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40">
                       <a
                         // href="/studies/tracehut"
-                        className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-1000 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
+                        className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-500 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
                       >
                         <svg
                           width="24"

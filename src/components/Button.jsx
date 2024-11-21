@@ -6,6 +6,7 @@ const HoverButton = ({
   hoverBg,
   hoverText,
   width,
+  height,
   link,
   oldContent,
   newContent,
@@ -21,24 +22,24 @@ const HoverButton = ({
   return (
     <a
       href={link && link}
-      className={`relative h-12 px-2 overflow-hidden rounded-md font-medium text-nowrap cursor-pointer ${
+      className={`relative px-2 overflow-hidden rounded-md font-medium text-nowrap cursor-pointer ${
         bg ?? "bg-[#FD5D00]"
-      } ${text ?? "text-white"} ${width ?? "w-40"} ${hoverBg && hoverBg} ${
-        hoverText && hoverText
-      }`}
+      } ${text ?? "text-white"} ${width ?? "w-40"} ${height ?? "h-6"} ${
+        hoverBg && hoverBg
+      } ${hoverText && hoverText}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       <div
-        className={`absolute inset-0 flex items-center justify-center transition-transform duration-1000 ${
-          hovered ? "animate-slideUp" : "animate-slideDown"
+        className={`absolute inset-0 flex items-center justify-center transition-transform hover-button animate__animated ${
+          hovered ? "animate__slideOutUp" : "animate__slideInDown"
         }`}
       >
         {oldContent}
       </div>
       <div
-        className={`absolute inset-0 flex items-center justify-center transition-transform duration-1000 ${
-          hovered ? "animate-slideDown" : "animate-slideUp"
+        className={`absolute inset-0 flex items-center justify-center transition-transform hover-button animate__animated ${
+          hovered ? "animate__slideInUp" : "animate__slideOutDown"
         }`}
       >
         {newContent}
