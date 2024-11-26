@@ -10,6 +10,7 @@ const HoverButton = ({
   link,
   oldContent,
   newContent,
+  target,
 }) => {
   const [hovered, setHovered] = useState(false);
   const handleMouseEnter = () => {
@@ -29,6 +30,7 @@ const HoverButton = ({
       } ${hoverText && hoverText}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      target={target && target}
     >
       <div
         className={`absolute inset-0 flex items-center justify-center transition-transform hover-button animate__animated ${

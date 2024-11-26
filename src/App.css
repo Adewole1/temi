@@ -63,7 +63,7 @@
 
 .scroll-container {
   display: flex;
-  animation: scroll 240s linear infinite;
+  animation: scroll 120s linear infinite;
   will-change: transform;
 }
 
@@ -108,7 +108,7 @@
 
 .scroll-container2 {
   display: flex;
-  animation: scroll2 120s linear infinite;
+  animation: scroll2 60s linear infinite;
   will-change: transform;
 }
 

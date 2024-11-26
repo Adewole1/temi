@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
+import HoverButton from "../../components/Button";
 
 const Medics = () => {
   const targetRef = useRef(null);
@@ -54,7 +55,7 @@ const Medics = () => {
             <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
               <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/medics.png')] h-full w-full rounded-xl"></div>
             </div>
-            <div className="flex flex-col-reverse items-end lg:flex-row gap-4 justify-between w-full">
+            <div className="flex flex-col-reverse items-start lg:flex-row gap-4 justify-between w-full">
               <div className="flex items-center justify-start flex-wrap w-full gap-4 md:gap-2 lg:gap-12 2xl:gap-16">
                 <div className="flex flex-col items-start gap-2 lg:gap-3">
                   <p className="font-instrument lg:text-lg">Client</p>
@@ -120,29 +121,54 @@ const Medics = () => {
                   </div>
                 </div>
               </div>
-              <a
-                href="https://www.medicspartners.org"
+              <HoverButton
+                bg="bg-white"
+                text="text-gray-700"
+                link={"https://www.medicspartners.org"}
                 target="_blank"
-                referrerPolicy="noreferrer"
-                className="py-2 md:py-2.5 px-3 lg:px-4 rounded-md bg-white text-gray-700 font-medium text-nowrap flex items-center h-fit w-fit"
-              >
-                View Website{" "}
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M4.16675 10H15.8334M15.8334 10L10.0001 4.16669M15.8334 10L10.0001 15.8334"
-                    stroke="#344054"
-                    stroke-width="1.67"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </a>
+                width={"w-48"}
+                height={"h-12"}
+                oldContent={
+                  <>
+                    View Website{" "}
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M4.16675 10H15.8334M15.8334 10L10.0001 4.16669M15.8334 10L10.0001 15.8334"
+                        stroke="#344054"
+                        stroke-width="1.67"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </>
+                }
+                newContent={
+                  <>
+                    View Website{" "}
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M4.16675 10H15.8334M15.8334 10L10.0001 4.16669M15.8334 10L10.0001 15.8334"
+                        stroke="#344054"
+                        stroke-width="1.67"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </>
+                }
+              />
             </div>
           </div>
         </div>

@@ -280,7 +280,7 @@ const Homepage = () => {
                   <div className="h-80 md:h-[25rem] xl:h-[30rem] w-96 md:w-[34rem] xl:w-[40rem] rounded-xl bg-cover bg-no-repeat bg-[url('/src/assets/images/ppn.png')]">
                     <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40">
                       <a
-                        // href="/studies/ppn"
+                        href="/studies/ppn"
                         className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-500 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
                       >
                         <svg
@@ -346,7 +346,7 @@ const Homepage = () => {
                   <div className="h-80 md:h-[25rem] xl:h-[30rem] w-96 md:w-[34rem] xl:w-[40rem] rounded-xl bg-cover bg-no-repeat bg-[url('/src/assets/images/tracehut.png')]">
                     <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40">
                       <a
-                        // href="/studies/tracehut"
+                        href="/studies/tracehut"
                         className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-500 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
                       >
                         <svg
