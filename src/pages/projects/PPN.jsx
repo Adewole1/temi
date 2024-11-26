@@ -398,7 +398,7 @@ const PPN = () => {
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/ppn/clothing.png')] h-full w-full rounded-xl"></div>
               </div>
               <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
-                <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/mockup/health.png')] h-full w-full rounded-xl"></div>
+                <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/mockup/fitness.png')] h-full w-full rounded-xl"></div>
               </div>
               <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/ppn/shop.png')] h-full w-full rounded-xl"></div>
