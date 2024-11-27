@@ -160,7 +160,7 @@ const Tracehut = () => {
               <HoverButton
                 bg="bg-white"
                 text="text-gray-700"
-                // link={"https://www.medicspartners.org"}
+                link={"https://tracehut.com/"}
                 target="_blank"
                 width={"w-48"}
                 height={"h-12"}
@@ -287,7 +287,7 @@ const Tracehut = () => {
                   </div>
                 </div>
                 <div className="bg-[#1c1c1c] rounded-xl p-4 lg:p-6 flex items-center justify-center h-[102px]">
-                  <div className="h-full flex items-center justify-center w-full">
+                  <div className="h-full flex items-center justify-center w-full grayscale">
                     <img
                       src={privatePro}
                       alt="Farfetch logo"
@@ -425,16 +425,16 @@ const Tracehut = () => {
               style={{ x: window.innerWidth > 767 && x }}
               className="flex flex-col md:flex-row items-center gap-4 lg:gap-6 pl-2"
             >
-              <div className="flex items-center justify-center w-full h-72 md:h-[32rem] lg:h-[40rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[43rem] lg:min-w-[54rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
-                <div className="bg-no-repeat bg-contain bg-[url('/src/assets/images/studies/tracehut/section2.png')] h-full w-full rounded-xl"></div>
+              <div className="flex items-center justify-center w-full h-72 md:h-[32rem] lg:h-[40rem] 2xl:h-[50rem] min-w-[90vw] md:min-w-[43rem] lg:min-w-[54rem] 2xl:min-w-[70rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+                <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/tracehut/section2.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-3 w-full h-[60rem] md:h-[32rem] lg:h-[40rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[70rem] 2xl:min-w-[80rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
-                <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/tracehut/feedback.png')] h-full w-full rounded-xl"></div>
-                <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/tracehut/5.png')] h-full w-full rounded-xl"></div>
-                <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/tracehut/6.png')] h-full w-full rounded-xl"></div>
-                <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/tracehut/conclusion.png')] h-full w-full rounded-xl"></div>
-                <div className="bg-no-repeat bg-cover bg-top bg-[url('/src/assets/images/studies/tracehut/6.png')] h-full w-full rounded-xl"></div>
-                <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/tracehut/conclusion.png')] h-full w-full rounded-xl"></div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-3 w-full h-[60rem] md:h-[32rem] lg:h-[40rem] 2xl:h-[50rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[70rem] 2xl:min-w-[80rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+                <div className="bg-no-repeat bg-contain bg-center bg-[url('/src/assets/images/studies/tracehut/feedback.png')] h-full w-full rounded-xl"></div>
+                <div className="bg-no-repeat bg-contain bg-center bg-[url('/src/assets/images/studies/tracehut/5.png')] h-full w-full rounded-xl"></div>
+                <div className="bg-no-repeat bg-contain bg-center bg-[url('/src/assets/images/studies/tracehut/6.png')] h-full w-full rounded-xl"></div>
+                <div className="bg-no-repeat bg-contain bg-center bg-[url('/src/assets/images/studies/tracehut/conclusion.png')] h-full w-full rounded-xl"></div>
+                {/* <div className="bg-no-repeat bg-cover bg-top bg-[url('/src/assets/images/studies/tracehut/6.png')] h-full w-full rounded-xl"></div>
+                <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/tracehut/conclusion.png')] h-full w-full rounded-xl"></div> */}
               </div>
             </motion.div>
           </div>
@@ -609,66 +609,57 @@ const Tracehut = () => {
           <div className="flex flex-col items-start text-left max-w-[90%] md:max-w-[80%] xl:max-w-[60%]">
             <div className="flex w-full flex-col gap-3 lg:gap-4 2xl:gap-5 py-8 lg:py-10 2xl:py-12 border-t border-t-[#484848]">
               <p className="text-3xl lg:text-4xl 2xl:text-5xl font-instrument">
-                Anticipated Impact and Metrics
+                Launch & Impact
               </p>
               <p className="lg:text-lg text-[#d9d9d9]">
-                Upon launch, Vendor Editor is expected to deliver significant
-                benefits to e-commerce merchants:
+                Tracehut successfully launched on the Apple App Store and Google
+                Play Store, receiving positive feedback from early adopters.
+                During an internal alpha test with 15 users, the app’s ease of
+                use and potential impact were praised, paving the way for its
+                public release.
               </p>
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-6 lg:max-w-[85%] 2xl:max-w-[80%] text-left">
             <div className="flex flex-col p-4 md:p-3 lg:p-6 bg-[#1c1c1c] rounded-xl gap-3 h-full w-full">
               <p className="text-4xl lg:text-5xl 2xl:text-6xl font-instrument">
-                60%
+                50K+
               </p>
               <div className="flex flex-col gap-1.5 lg:gap-2">
-                <p className="lg:text-lg text-[#d9d9d9]">
-                  Faster Development Time
+                <p className="lg:text-lg text-[#d9d9d9] font-medium">
+                  Verified Reviews with the first year of launch
                 </p>
                 <p className="lg:text-lg text-[#d9d9d9]">
-                  Streamlined drag-and-drop functionality reduces website launch
-                  time by more than half.
+                  Empowering renters with reliable information.
                 </p>
               </div>
             </div>
             <div className="flex flex-col p-4 md:p-3 lg:p-6 bg-[#1c1c1c] rounded-xl gap-3 h-full w-full">
               <p className="text-4xl lg:text-5xl 2xl:text-6xl font-instrument">
-                280+
+                25%
               </p>
               <div className="flex flex-col gap-1.5 lg:gap-2">
-                <p className="lg:text-lg text-[#d9d9d9]">
-                  Customizable Components
+                <p className="lg:text-lg text-[#d9d9d9] font-medium">
+                  User retention rate
                 </p>
                 <p className="lg:text-lg text-[#d9d9d9]">
-                  Merchants can tailor every aspect of their website to fit
-                  their brand, resulting in greater design flexibility.
+                  Gamification, rewards, and social features are expected to
+                  increase enagagement.
                 </p>
               </div>
             </div>
             <div className="flex flex-col p-4 md:p-3 lg:p-6 bg-[#1c1c1c] rounded-xl gap-3 h-full w-full">
               <p className="text-4xl lg:text-5xl 2xl:text-6xl font-instrument">
-                90%
+                10K+
               </p>
               <div className="flex flex-col gap-1.5 lg:gap-2">
-                <p className="lg:text-lg text-[#d9d9d9]">
-                  Usable Across All Skill Levels
+                <p className="lg:text-lg text-[#d9d9d9] font-medium">
+                  Active Monthly Users
                 </p>
                 <p className="lg:text-lg text-[#d9d9d9]">
-                  Designed for ease of use, ensuring that even non-technical
-                  users can create professional websites.
+                  Estimated across Nigeria with the first 6 months.
                 </p>
               </div>
-            </div>
-          </div>
-          <div className="flex flex-col items-start text-left max-w-[90%] md:max-w-[80%] xl:max-w-[60%]">
-            <div className="flex w-full flex-col gap-3 lg:gap-4 2xl:gap-5">
-              <p className="lg:text-lg text-[#d9d9d9]">
-                These metrics highlight Vendor Editor's potential to make
-                e-commerce site-building more accessible, efficient, and
-                customizable, empowering merchants to establish a strong digital
-                presence with minimal effort.
-              </p>
             </div>
           </div>
         </div>
@@ -680,27 +671,20 @@ const Tracehut = () => {
                   Conclusion
                 </p>
                 <p className="lg:text-lg text-[#d9d9d9]">
-                  The Vendor Editor project is set to revolutionize the
-                  e-commerce website creation process by providing merchants
-                  with professionally designed themes and an extensive library
-                  of customizable components. Currently in the development
-                  phase, the platform aims to simplify website building, making
-                  it accessible to users of all skill levels while offering the
-                  flexibility needed to create unique and functional online
-                  stores. By leveraging thorough competitor analysis and a
-                  strategic design process, Vendor Editor is poised to deliver a
-                  powerful tool that enhances merchants' ability to connect with
-                  customers and grow their businesses online.
+                  Tracehut is set to transform apartment hunting in Nigeria by
+                  introducing transparency, trust, and community-driven insights
+                  to the rental process. The successful launch on both Apple App
+                  Store and Google Play Store reflects its readiness to address
+                  renters' challenges and redefine how Nigerians find their
+                  homes.
                 </p>
               </div>
               <div className="flex flex-col items-center text-center gap-4 lg:gap-6 2xl:gap-8 lg:max-w-[90%] 2xl:max-w-[80%]">
                 <p className="font-instrument text-2xl lg:text-3xl 2xl:text-4xl">
-                  "Working with Temi on the Vendor Editor project has been
-                  outstanding. Temi designed our template themes and over 280
-                  components, delivering high-quality, customizable, and
-                  intuitive designs that perfectly support our e-commerce
-                  platform. Her dedication and attention to detail were
-                  invaluable, and we're excited for the impact of this work."
+                  "Temi’s contribution to Tracehut app was invaluable. The
+                  positive feedback from early users is a testament to Temi’s
+                  skill in transforming complex requirements into seamless,
+                  engaging designs.”
                 </p>
                 <div className="flex flex-col items-center gap-2 lg:gap-3 2xl:gap-4">
                   <div className="flex size-14 bg-center bg-no-repeat bg-cover bg-[url('/src/assets/images/busola.jpeg')] rounded-full"></div>
