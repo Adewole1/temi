@@ -697,9 +697,9 @@ const Tracehut = () => {
                   <div className="flex size-14 bg-center bg-no-repeat bg-cover bg-[url('/src/assets/images/busola.jpeg')] rounded-full"></div>
                   <div className="flex flex-col">
                     <p className="text-sm lg:text-base font-medium">
-                      Emmanuel Uchwa
+                      Joshua Dosubi
                     </p>
-                    <p className="text-xs lg:text-sm">Project Manager, PPN</p>
+                    <p className="text-xs lg:text-sm">CEO, Tracehut</p>
                   </div>
                 </div>
               </div>
