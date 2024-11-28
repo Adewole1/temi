@@ -231,20 +231,25 @@ const Tracehut = () => {
                 The Challenge
               </p>
               <p className="lg:text-lg text-[#d9d9d9]">
-                Renting an apartment in Lagos often feels like a gamble, with
-                renters discovering hidden issues after moving in, such as
-                unreliable water supply, accumulated utility bills, poor
-                construction quality and poor management. These problems lead to
-                financial burdens and dissatisfaction. Renters currently lack a
-                reliable platform to access verified information, leaving many
-                at the mercy of deceptive property listings and unscrupulous
-                agents. Tracehut bridges this gap by enabling renters to learn
-                from real tenant experiences before making decisions.
+                Renting an apartment in Nigeria often feels like a gamble, with
+                renters discovering hidden issues after moving in, such as{" "}
+                <span className="font-bold">
+                  unreliable water supply, accumulated utility bills, poor
+                  construction quality and poor management.
+                </span>
+              </p>
+              <p className="lg:text-lg text-[#d9d9d9]">
+                These problems lead to financial burdens and dissatisfaction.
+                Renters currently lack a reliable platform to access verified
+                information, leaving many at the mercy of deceptive property
+                listings and unscrupulous agents. Tracehut bridges this gap by
+                enabling renters to learn from real tenant experiences before
+                making decisions.
               </p>
             </div>
           </div>
           <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
-            <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/tracehut/building.jpeg')] h-full w-full rounded-xl"></div>
+            <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/tracehut/building.jpg')] h-full w-full rounded-xl"></div>
           </div>
           <div className="relative flex flex-col items-center text-left">
             <div className="relative flex flex-col items-center gap-8 lg:gap-10 2xl:gap-12">
@@ -253,8 +258,10 @@ const Tracehut = () => {
                   Competitor Analysis
                 </p>
                 <p className="lg:text-lg text-[#d9d9d9]">
-                  Existing platforms like <b>Nigeria Property Centre</b>,{" "}
-                  <b>PropertyPro</b>, and <b>Private Property</b> focus on
+                  Existing platforms like{" "}
+                  <span className="font-bold">Nigeria Property Centre</span>,{" "}
+                  <span className="font-bold">PropertyPro</span>, and{" "}
+                  <span className="font-bold">Private Property</span> focus on
                   apartment listings but lack renter-centric insights. These
                   platforms provide no transparency regarding hidden issues, no
                   verified feedback system, and minimal tenant advocacy.
