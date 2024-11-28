@@ -551,10 +551,10 @@ const PPN = () => {
                   invaluable, and we're excited for the impact of this work."
                 </p>
                 <div className="flex flex-col items-center gap-2 lg:gap-3 2xl:gap-4">
-                  <div className="flex size-14 bg-center bg-no-repeat bg-cover bg-[url('/src/assets/images/busola.jpeg')] rounded-full"></div>
+                  <div className="flex size-14 bg-center bg-no-repeat bg-cover bg-[url('/src/assets/images/emmanuel.jpeg')] rounded-full"></div>
                   <div className="flex flex-col">
                     <p className="text-sm lg:text-base font-medium">
-                      Emmanuel Uchwa
+                      Emmanuel Uchewa
                     </p>
                     <p className="text-xs lg:text-sm">Project Manager, PPN</p>
                   </div>

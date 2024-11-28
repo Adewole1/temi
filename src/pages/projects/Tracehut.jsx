@@ -217,13 +217,13 @@ const Tracehut = () => {
                 Overview
               </p>
               <p className="lg:text-lg text-[#d9d9d9]">
-                Tracehut is a mobile app designed for young apartment renters in
-                Lagos, aged 21–37, to make informed rental decisions. The app
-                addresses the common challenges of hidden apartment issues such
-                as poor infrastructure, accumulated bills, or bad water by
-                providing a database of verified tenant reviews. With Tracehut,
-                renters can search, share, and explore verified feedback from
-                previous tenants to avoid costly mistakes.
+                Tracehut is a mobile app designed for apartment renters across
+                Nigeria to make informed decisions. The app addresses the common
+                challenges of hidden apartment issues such as poor
+                infrastructure, accumulated bills, or bad water by providing a
+                database of verified tenant reviews. With Tracehut, renters can
+                search, share, and explore verified feedback from previous
+                tenants to avoid costly mistakes.
               </p>
             </div>
             <div className="flex w-full flex-col gap-3 lg:gap-4 2xl:gap-5 py-8 lg:py-10 2xl:py-12 border-b border-b-[#484848]">
@@ -694,7 +694,7 @@ const Tracehut = () => {
                   engaging designs.”
                 </p>
                 <div className="flex flex-col items-center gap-2 lg:gap-3 2xl:gap-4">
-                  <div className="flex size-14 bg-center bg-no-repeat bg-cover bg-[url('/src/assets/images/busola.jpeg')] rounded-full"></div>
+                  <div className="flex size-14 bg-center grayscale bg-no-repeat bg-cover bg-[url('/src/assets/images/joshua.jpeg')] rounded-full"></div>
                   <div className="flex flex-col">
                     <p className="text-sm lg:text-base font-medium">
                       Joshua Dosubi

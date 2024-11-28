@@ -426,7 +426,7 @@ const Homepage = () => {
                 </div>
               </div>
               <p className="lg:text-lg text-left">
-                Streamlining Healthcare Operations & Enhancing Patient Care.
+                Empowering Renters with verified apartment insights.
               </p>
             </div>
           </div>
