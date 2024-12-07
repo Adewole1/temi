@@ -70,7 +70,7 @@ const Applayout = () => {
                 />
                 <div className="h-6 w-0.5 bg-[#484848] mx-2 md:mx-3 lg:mx-4 hidden md:flex"></div>
                 <HoverButton
-                  bg="bg-transparent"
+                  bg="bg-transparent hidden md:flex"
                   text="text-white"
                   width={"w-14"}
                   // link={"/#about"}
@@ -81,6 +81,22 @@ const Applayout = () => {
                       className="m-0 p-0 text-[#FD5D00] font-medium hover:cursor-pointer"
                     >
                       About
+                    </p>
+                  }
+                />
+                <div className="h-6 w-0.5 bg-[#484848] mx-2 md:mx-3 lg:mx-4 hidden md:flex"></div>
+                <HoverButton
+                  bg="bg-transparent"
+                  text="text-white"
+                  width={"w-14"}
+                  link={
+                    "https://docs.google.com/document/d/1eliFRg4RkfbkflMzKfVFju9UIq0uxs6QvEiEHQnVMGg/edit?usp=sharing"
+                  }
+                  target={"_blank"}
+                  oldContent={<p>Resume</p>}
+                  newContent={
+                    <p className="m-0 p-0 text-[#FD5D00] font-medium hover:cursor-pointer">
+                      Resume
                     </p>
                   }
                 />
@@ -144,29 +160,48 @@ const Applayout = () => {
                   </div>
                 }
               />
-              <HoverButton
-                hoverBg={"hover:bg-white"}
-                hoverText={"hover:text-gray-700"}
-                // link={"#contact"}
-                height={"h-12"}
-                oldContent={
-                  <div
-                    onClick={() => goToSection("contact")}
-                    className="flex items-center flex-nowrap gap-0.5"
-                  >
-                    <p className="m-0 p-0 text-sm">Work with me</p>
-                  </div>
-                }
-                newContent={
-                  <div
-                    onClick={() => goToSection("contact")}
-                    className="flex items-center flex-nowrap gap-0.5"
-                  >
-                    <div className="bg-cover size-9 bg-no-repeat bg-[url('/src/assets/images/temi.jpeg')] rounded-[4px]"></div>
-                    <p className="m-0 p-0 text-sm">+ you = let's talk</p>
-                  </div>
-                }
-              />
+              <div className="flex items-center font-instrument">
+                <HoverButton
+                  bg="bg-transparent"
+                  text="text-white"
+                  width={"w-16"}
+                  link={
+                    "https://docs.google.com/document/d/1eliFRg4RkfbkflMzKfVFju9UIq0uxs6QvEiEHQnVMGg/edit?usp=sharing"
+                  }
+                  target={"_blank"}
+                  oldContent={<p>Resume</p>}
+                  newContent={
+                    <p className="m-0 p-0 text-[#FD5D00] font-medium hover:cursor-pointer">
+                      Resume
+                    </p>
+                  }
+                />                
+                <div className="h-6 w-0.5 bg-[#484848] mx-2 md:mx-3 lg:mx-4 hidden md:flex"></div>
+                <HoverButton
+                  hoverBg={"hover:bg-white"}
+                  hoverText={"hover:text-gray-700"}
+                  // link={"#contact"}
+                  height={"h-12"}
+                  width={"w-32 md:w-40"}
+                  oldContent={
+                    <div
+                      onClick={() => goToSection("contact")}
+                      className="flex items-center flex-nowrap gap-0.5"
+                    >
+                      <p className="m-0 p-0 text-sm">Work with me</p>
+                    </div>
+                  }
+                  newContent={
+                    <div
+                      onClick={() => goToSection("contact")}
+                      className="flex items-center flex-nowrap gap-0.5"
+                    >
+                      <div className="bg-cover size-9 bg-no-repeat bg-[url('/src/assets/images/temi.jpeg')] rounded-[4px]"></div>
+                      <p className="m-0 p-0 text-sm">+ you = let's talk</p>
+                    </div>
+                  }
+                />
+              </div>
             </>
           )}
         </div>
@@ -174,6 +209,7 @@ const Applayout = () => {
       <div className="relative w-screen flex flex-col items-center">
         <Outlet />
       </div>
+      {/* footer */}
       <div className="flex flex-col items-center overflow-x-clip w-screen">
         <div className="flex flex-col items-center py-12 md:py-16 lg:py-20 2xl:py-24 px-4 md:px-12 lg:px-16 2xl:px-20 gap-4 lg:gap-6 2xl:gap-8 overflow-x-clip w-screen max-w-[1440px]">
           <div className="flex flex-col gap-3 lg:gap-4">
