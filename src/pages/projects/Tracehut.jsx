@@ -55,8 +55,8 @@ const Tracehut = () => {
             choices with Tracehut
           </p>
           <div className="flex flex-col gap-4 lg:gap-6 2xl:gap-8 w-full">
-            <div className="flex items-center justify-center w-full h-72 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
-              <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/tracehut.png')] h-full w-full rounded-xl"></div>
+            <div className="flex items-center justify-center w-full h-72 md:h-[32rem] lg:h-[46rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/tracehut.png')] h-full w-full rounded-xl"></div>
             </div>
             <div className="flex flex-col-reverse items-start lg:flex-row gap-4 justify-between w-full">
               <div className="flex items-center justify-start flex-wrap w-full gap-4 md:gap-2 lg:gap-12 2xl:gap-16">

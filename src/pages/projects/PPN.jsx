@@ -58,8 +58,8 @@ const PPN = () => {
             customizable templates and components using PPN Editor
           </p>
           <div className="flex flex-col gap-4 lg:gap-6 2xl:gap-8 w-full">
-            <div className="flex items-center justify-center w-full h-64 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
-              <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/ppn.png')] h-full w-full rounded-xl"></div>
+            <div className="flex items-center justify-center w-full h-64 md:h-[32rem] lg:h-[44rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/ppn.png')] h-full w-full rounded-xl"></div>
             </div>
             <div className="flex flex-col-reverse items-start lg:flex-row gap-4 justify-between w-full">
               <div className="flex items-center justify-start flex-wrap w-full gap-4 md:gap-2 lg:gap-12 2xl:gap-16">
@@ -186,7 +186,7 @@ const PPN = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center justify-center w-full h-64 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+          <div className="flex items-center justify-center w-full h-64 md:h-[32rem] lg:h-[44rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
             <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/ppn/landingPage.png')] h-full w-full rounded-xl"></div>
           </div>
           <div className="relative flex flex-col items-center text-left">
@@ -431,7 +431,7 @@ const PPN = () => {
         </div>
         <div className="flex flex-col items-center w-screen gap-8 lg:gap-10 2xl:gap-12">
           <div className="flex flex-col items-center gap-8 lg:gap-10 2xl:gap-12 w-full max-w-[1440px] px-4 md:px-12 lg:px-16 2xl:px-20">
-            <div className="flex items-center justify-center w-full h-64 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+            <div className="flex items-center justify-center w-full h-64 md:h-[32rem] lg:h-[44rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
               <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/ppn/component.png')] h-full w-full rounded-xl"></div>
             </div>
           </div>
