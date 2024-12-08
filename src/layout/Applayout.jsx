@@ -182,13 +182,12 @@ const Applayout = () => {
                   hoverText={"hover:text-gray-700"}
                   // link={"#contact"}
                   height={"h-12"}
-                  width={"w-32 md:w-40"}
                   oldContent={
                     <div
                       onClick={() => goToSection("contact")}
                       className="flex items-center flex-nowrap gap-0.5"
                     >
-                      <p className="m-0 p-0 text-sm">Work with me</p>
+                      <p className="m-0 p-0 text-sm font-inter">Work with me</p>
                     </div>
                   }
                   newContent={
@@ -197,7 +196,7 @@ const Applayout = () => {
                       className="flex items-center flex-nowrap gap-0.5"
                     >
                       <div className="bg-cover size-9 bg-no-repeat bg-[url('/src/assets/images/temi.jpeg')] rounded-[4px]"></div>
-                      <p className="m-0 p-0 text-sm">+ you = let's talk</p>
+                      <p className="m-0 p-0 text-sm font-inter">+ you = let's talk</p>
                     </div>
                   }
                 />
