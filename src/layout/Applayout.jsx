@@ -175,7 +175,7 @@ const Applayout = () => {
                       Resume
                     </p>
                   }
-                />                
+                />
                 <div className="h-6 w-0.5 bg-[#484848] mx-2 md:mx-3 lg:mx-4 hidden md:flex"></div>
                 <HoverButton
                   hoverBg={"hover:bg-white"}
@@ -196,7 +196,9 @@ const Applayout = () => {
                       className="flex items-center flex-nowrap gap-0.5"
                     >
                       <div className="bg-cover size-9 bg-no-repeat bg-[url('/src/assets/images/temi.jpeg')] rounded-[4px]"></div>
-                      <p className="m-0 p-0 text-sm font-inter">+ you = let's talk</p>
+                      <p className="m-0 p-0 text-sm font-inter">
+                        + you = let's talk
+                      </p>
                     </div>
                   }
                 />
@@ -216,13 +218,14 @@ const Applayout = () => {
               Let's Work Together!
             </p>
             <p className="lg:text-lg 2xl:text-xl text-[#D9D9D9]">
-              You can send me an{" "}
+              You can send me an email at{" "}
               <a
                 href="mailto:olutemitopefamuyiwa@gmail.com"
                 className="hover:text-[#FD5D00] underline"
               >
-                email
-              </a>{" "}
+                olutemitopefamuyiwa@gmail.com
+              </a>
+              <br />
               or connect with me on{" "}
               <a
                 href="https://www.linkedin.com/in/"
@@ -237,6 +240,7 @@ const Applayout = () => {
             hoverBg={"hover:bg-white"}
             hoverText={"hover:text-gray-700"}
             height={"h-12"}
+            link={"mailto:olutemitopefamuyiwa@gmail.com"}
             oldContent={
               <div
                 onClick={() => goToSection("contact")}
