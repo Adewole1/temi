@@ -53,12 +53,12 @@ const PPN = () => {
     <div className="flex flex-col items-center w-screen">
       <div className="flex flex-col items-center py-12 md:py-16 lg:py-20 2xl:py-24 px-4 md:px-12 lg:px-16 2xl:px-20 w-screen max-w-[1440px]">
         <div className="flex flex-col items-center gap-4 md:gap-6 lg:gap-8 2xl:gap-12 px-4 lg:px-6 2xl:px-8">
-          <p className="font-instrument text-5xl lg:text-6xl 2xl:text-7xl 2xl:leading-[5.625rem] text-center md:max-w-[75%] lg:max-w-[70%]">
+          <p className="font-instrument text-4xl lg:text-6xl 2xl:text-7xl 2xl:leading-[5.625rem] text-center md:max-w-[75%] lg:max-w-[70%]">
             Empowering Merchants launch their online store faster with
             customizable templates and components using PPN Editor
           </p>
           <div className="flex flex-col gap-4 lg:gap-6 2xl:gap-8 w-full">
-            <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+            <div className="flex items-center justify-center w-full h-64 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
               <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/ppn.png')] h-full w-full rounded-xl"></div>
             </div>
             <div className="flex flex-col-reverse items-start lg:flex-row gap-4 justify-between w-full">
@@ -186,7 +186,7 @@ const PPN = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+          <div className="flex items-center justify-center w-full h-64 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
             <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/ppn/landingPage.png')] h-full w-full rounded-xl"></div>
           </div>
           <div className="relative flex flex-col items-center text-left">
@@ -394,16 +394,16 @@ const PPN = () => {
               style={{ x: window.innerWidth > 767 && x }}
               className="flex flex-col md:flex-row items-center gap-4 lg:gap-6 pl-2"
             >
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-72 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/ppn/clothing.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-64 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/mockup/fitness.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-72 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/ppn/shop.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-72 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/ppn/beauty.png')] h-full w-full rounded-xl"></div>
               </div>
             </motion.div>
@@ -431,7 +431,7 @@ const PPN = () => {
         </div>
         <div className="flex flex-col items-center w-screen gap-8 lg:gap-10 2xl:gap-12">
           <div className="flex flex-col items-center gap-8 lg:gap-10 2xl:gap-12 w-full max-w-[1440px] px-4 md:px-12 lg:px-16 2xl:px-20">
-            <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+            <div className="flex items-center justify-center w-full h-64 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
               <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/ppn/component.png')] h-full w-full rounded-xl"></div>
             </div>
           </div>

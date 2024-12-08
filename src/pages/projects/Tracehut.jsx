@@ -50,12 +50,12 @@ const Tracehut = () => {
     <div className="flex flex-col items-center w-screen">
       <div className="flex flex-col items-center py-12 md:py-16 lg:py-20 2xl:py-24 px-4 md:px-12 lg:px-16 2xl:px-20 w-screen max-w-[1440px]">
         <div className="flex flex-col items-center gap-4 md:gap-6 lg:gap-8 2xl:gap-12 px-4 lg:px-6 2xl:px-8">
-          <p className="font-instrument text-5xl lg:text-6xl 2xl:text-7xl 2xl:leading-[5.625rem] text-center md:max-w-[75%] lg:max-w-[70%]">
+          <p className="font-instrument text-4xl lg:text-6xl 2xl:text-7xl 2xl:leading-[5.625rem] text-center md:max-w-[75%] lg:max-w-[70%]">
             Empowering Renters with Verified Apartment Insights for smarter
             choices with Tracehut
           </p>
           <div className="flex flex-col gap-4 lg:gap-6 2xl:gap-8 w-full">
-            <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+            <div className="flex items-center justify-center w-full h-72 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
               <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/tracehut.png')] h-full w-full rounded-xl"></div>
             </div>
             <div className="flex flex-col-reverse items-start lg:flex-row gap-4 justify-between w-full">
@@ -248,7 +248,7 @@ const Tracehut = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+          <div className="flex items-center justify-center w-full h-72 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
             <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/tracehut/building.jpg')] h-full w-full rounded-xl"></div>
           </div>
           <div className="relative flex flex-col items-center text-left">
@@ -440,8 +440,6 @@ const Tracehut = () => {
                 <div className="bg-no-repeat bg-contain bg-center bg-[url('/src/assets/images/studies/tracehut/5.png')] h-full w-full rounded-xl"></div>
                 <div className="bg-no-repeat bg-contain bg-center bg-[url('/src/assets/images/studies/tracehut/6.png')] h-full w-full rounded-xl"></div>
                 <div className="bg-no-repeat bg-contain bg-center bg-[url('/src/assets/images/studies/tracehut/conclusion.png')] h-full w-full rounded-xl"></div>
-                {/* <div className="bg-no-repeat bg-cover bg-top bg-[url('/src/assets/images/studies/tracehut/6.png')] h-full w-full rounded-xl"></div>
-                <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/tracehut/conclusion.png')] h-full w-full rounded-xl"></div> */}
               </div>
             </motion.div>
           </div>
@@ -589,22 +587,22 @@ const Tracehut = () => {
               style={{ x: window.innerWidth > 767 && x2 }}
               className="flex flex-col md:flex-row items-center gap-4 lg:gap-6 pl-2"
             >
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-2 lg:gap-4 2xl:gap-6 w-full h-[140rem] md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-2 lg:gap-4 2xl:gap-6 w-full h-[140rem] md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-contain md:bg-contain bg-[url('/src/assets/images/studies/tracehut/circeReviews.png')] h-full w-full rounded-xl"></div>
                 <div className="bg-no-repeat  bg-contain md:bg-contain bg-[url('/src/assets/images/studies/tracehut/comments.png')] h-full w-full rounded-xl"></div>
                 <div className="bg-no-repeat  bg-contain md:bg-contain bg-[url('/src/assets/images/studies/tracehut/apartmentPhotos.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-2 lg:gap-4 2xl:gap-6 w-full h-[140rem] md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-2 lg:gap-4 2xl:gap-6 w-full h-[140rem] md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-contain bg-[url('/src/assets/images/studies/tracehut/search.png')] h-full w-full rounded-xl"></div>
                 <div className="bg-no-repeat bg-contain bg-[url('/src/assets/images/studies/tracehut/notification.png')] h-full w-full rounded-xl"></div>
                 <div className="bg-no-repeat bg-contain bg-[url('/src/assets/images/studies/tracehut/account.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-2 lg:gap-4 2xl:gap-6 w-full h-[140rem] md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-2 lg:gap-4 2xl:gap-6 w-full h-[140rem] md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-contain bg-[url('/src/assets/images/studies/tracehut/referrals.png')] h-full w-full rounded-xl"></div>
                 <div className="bg-no-repeat bg-contain bg-[url('/src/assets/images/studies/tracehut/leaderboard.png')] h-full w-full rounded-xl"></div>
                 <div className="bg-no-repeat bg-contain bg-[url('/src/assets/images/studies/tracehut/howReferals.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-2 lg:gap-4 2xl:gap-6 w-full h-[140rem] md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-2 lg:gap-4 2xl:gap-6 w-full h-[140rem] md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-contain bg-[url('/src/assets/images/studies/tracehut/topup.png')] h-full w-full rounded-xl"></div>
                 <div className="bg-no-repeat bg-contain bg-[url('/src/assets/images/studies/tracehut/balance.png')] h-full w-full rounded-xl"></div>
                 <div className="bg-no-repeat bg-contain bg-[url('/src/assets/images/studies/tracehut/successfulo.png')] h-full w-full rounded-xl"></div>

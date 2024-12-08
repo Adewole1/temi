@@ -47,12 +47,12 @@ const Medics = () => {
     <div className="flex flex-col items-center w-screen">
       <div className="flex flex-col items-center py-12 md:py-16 lg:py-20 2xl:py-24 px-4 md:px-12 lg:px-16 2xl:px-20 w-screen max-w-[1440px]">
         <div className="flex flex-col items-center gap-4 md:gap-6 lg:gap-8 2xl:gap-12 px-4 lg:px-6 2xl:px-8">
-          <p className="font-instrument text-5xl lg:text-6xl 2xl:text-7xl 2xl:leading-[5.625rem] text-center md:max-w-[75%] lg:max-w-[70%]">
+          <p className="font-instrument text-4xl lg:text-6xl 2xl:text-7xl 2xl:leading-[5.625rem] text-center md:max-w-[75%] lg:max-w-[70%]">
             Streamlining Healthcare Operations & Enhancing Patient Care for
             Medics Partners.
           </p>
           <div className="flex flex-col gap-4 lg:gap-6 2xl:gap-8 w-full">
-            <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+            <div className="flex items-center justify-center w-full h-64 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
               <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/medics.png')] h-full w-full rounded-xl"></div>
             </div>
             <div className="flex flex-col-reverse items-start lg:flex-row gap-4 justify-between w-full">
@@ -366,8 +366,8 @@ const Medics = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
-            <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/medics/medics-reception.jpeg')] h-full w-full rounded-xl"></div>
+          <div className="flex items-center justify-center w-full h-64 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+            <div className="bg-no-repeat bg-cover bg-center bg-[url('/src/assets/images/studies/medics/medics-reception.jpeg')] h-full w-full rounded-xl"></div>
           </div>
           <div className="flex flex-col items-start text-left max-w-[90%] md:max-w-[80%] xl:max-w-[60%]">
             <div className="flex flex-col gap-3 lg:gap-4 2xl:gap-5 pb-8 lg:pb-10 2xl:pb-12 border-b border-b-[#484848]">
@@ -630,22 +630,22 @@ const Medics = () => {
               style={{ x: window.innerWidth > 767 && x }}
               className="flex flex-col md:flex-row items-center gap-4 lg:gap-6 pl-2"
             >
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
-                <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/medics/dashboard.png')] h-full w-full rounded-xl"></div>
+              <div className="flex items-center justify-center w-full h-64 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+                <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/medics/dashboard.png')]  h-full w-full rounded-xl"></div>
               </div>
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-64 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/medics/appointments.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-64 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/medics/patients.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-64 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/medics/patientreport.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-64 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/medics/takepayment.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-64 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/medics/patientdashboard.png')] h-full w-full rounded-xl"></div>
               </div>
             </motion.div>
@@ -733,19 +733,19 @@ const Medics = () => {
               style={{ x: window.innerWidth > 767 && x2 }}
               className="flex flex-col md:flex-row items-center gap-4 lg:gap-6 pl-2"
             >
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-64 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/medics/homepage.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-64 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/medics/bookAppointment.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-64 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/medics/missionVision.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-64 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/medics/findDoctor.png')] h-full w-full rounded-xl"></div>
               </div>
-              <div className="flex items-center justify-center w-full h-80 md:h-[32rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[52rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
+              <div className="flex items-center justify-center w-full h-64 md:h-[36rem] lg:h-[42rem] 2xl:h-[53rem] min-w-[90vw] md:min-w-[48rem] lg:min-w-[60rem] 2xl:min-w-[76rem] p-3 lg:p-4 2xl:p-6 bg-[#1c1c1c] rounded-2xl">
                 <div className="bg-no-repeat bg-cover bg-[url('/src/assets/images/studies/medics/dialysis.png')] h-full w-full rounded-xl"></div>
               </div>
             </motion.div>

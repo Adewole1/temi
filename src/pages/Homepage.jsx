@@ -196,7 +196,7 @@ const Homepage = () => {
         </p>
         <div className="w-full max-w-[1440px] grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-2 gap-4 lg:gap-6">
           <div className="bg-[#1c1c1c] rounded-2xl flex flex-col gap-4 lg:gap-6 p-4 lg:p-6">
-            <div className="h-80 md:h-[25rem] xl:h-[30rem] rounded-xl bg-cover bg-no-repeat bg-[url('/src/assets/images/medics.png')]">
+            <div className="h-80 md:h-72 lg:h-[30rem] rounded-xl bg-center bg-cover bg-no-repeat bg-[url('/src/assets/images/medics.png')]">
               <a
                 href="/studies/medics"
                 className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40 "
@@ -266,7 +266,7 @@ const Homepage = () => {
             </div>
           </div>
           <div className="bg-[#1c1c1c] rounded-2xl flex flex-col gap-4 lg:gap-6 p-4 lg:p-6">
-            <div className="h-80 md:h-[25rem] xl:h-[30rem] rounded-xl bg-cover bg-no-repeat bg-[url('/src/assets/images/ppn.png')]">
+            <div className="h-80 md:h-72 lg:h-[30rem] rounded-xl bg-center bg-cover bg-no-repeat bg-[url('/src/assets/images/ppn.png')]">
               <a
                 href="/studies/ppn"
                 className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40"
@@ -333,7 +333,7 @@ const Homepage = () => {
             </div>
           </div>
           <div className="bg-[#1c1c1c] rounded-2xl flex flex-col gap-4 lg:gap-6 p-4 lg:p-6">
-            <div className="h-80 md:h-[25rem] xl:h-[30rem] rounded-xl bg-cover bg-no-repeat bg-[url('/src/assets/images/tracehut.png')]">
+            <div className="h-80 md:h-72 lg:h-[30rem] rounded-xl bg-center bg-cover bg-no-repeat bg-[url('/src/assets/images/tracehut.png')]">
               <a
                 href="/studies/tracehut"
                 className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40"
@@ -431,7 +431,7 @@ const Homepage = () => {
             </div>
           </div>
           <div className="bg-[#1c1c1c] rounded-2xl flex flex-col gap-4 lg:gap-6 p-4 lg:p-6">
-            <div className="h-80 md:h-[25rem] xl:h-[30rem] rounded-xl bg-cover bg-no-repeat bg-[url('/src/assets/images/ngpay.png')]">
+            <div className="h-80 md:h-72 lg:h-[30rem] rounded-xl bg-center bg-cover bg-no-repeat bg-[url('/src/assets/images/ngpay.png')]">
               <a className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black bg-opacity-40">
                 <a className="bg-white text-gray-700 hover:bg-[#ff8b48] hover:text-white rounded-xl size-fit p-2 md:p-4 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-500 ease-in-out fill-none">
                   {/* <svg
