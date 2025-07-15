@@ -199,7 +199,7 @@ const Homepage = () => {
             <div className="h-80 md:h-72 lg:h-[30rem] rounded-xl bg-center bg-cover bg-no-repeat bg-[url('/src/assets/images/medics.png')]">
               <a
                 href="/studies/medics"
-                className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40 "
+                className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black/0 opacity-0 hover:opacity-100 hover:bg-black/40 "
               >
                 <a
                   href="/studies/medics"
@@ -269,7 +269,7 @@ const Homepage = () => {
             <div className="h-80 md:h-72 lg:h-[30rem] rounded-xl bg-center bg-cover bg-no-repeat bg-[url('/src/assets/images/ppn.png')]">
               <a
                 href="/studies/ppn"
-                className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40"
+                className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black/0 opacity-0 hover:opacity-100 hover:bg-black/40"
               >
                 <a
                   href="/studies/ppn"
@@ -336,7 +336,7 @@ const Homepage = () => {
             <div className="h-80 md:h-72 lg:h-[30rem] rounded-xl bg-center bg-cover bg-no-repeat bg-[url('/src/assets/images/tracehut.png')]">
               <a
                 href="/studies/tracehut"
-                className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40"
+                className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black/0 opacity-0 hover:opacity-100 hover:bg-black/40"
               >
                 <a
                   href="/studies/tracehut"
@@ -432,7 +432,7 @@ const Homepage = () => {
           </div>
           <div className="bg-[#1c1c1c] rounded-2xl flex flex-col gap-4 lg:gap-6 p-4 lg:p-6">
             <div className="h-80 md:h-72 lg:h-[30rem] rounded-xl bg-center bg-cover bg-no-repeat bg-[url('/src/assets/images/ngpay.png')]">
-              <a className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black bg-opacity-40">
+              <a className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black/40">
                 <a className="bg-white text-gray-700 hover:bg-[#ff8b48] hover:text-white rounded-xl size-fit p-2 md:p-4 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-500 ease-in-out fill-none">
                   {/* <svg
                     width="24"
@@ -500,7 +500,7 @@ const Homepage = () => {
               <div className="w-full flex justify-center item-center">
                 <div className="bg-[#1c1c1c] rounded-2xl flex flex-col gap-4 lg:gap-6 p-4 lg:p-6">
                   <div className="h-80 md:h-[25rem] xl:h-[30rem] w-96 md:w-[34rem] xl:w-[40rem] rounded-xl bg-cover bg-no-repeat bg-[url('/src/assets/images/medics.png')]">
-                    <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40">
+                    <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black/0 opacity-0 hover:opacity-100 hover:bg-black/40">
                       <a
                         href="/studies/medics"
                         className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-500 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
@@ -570,7 +570,7 @@ const Homepage = () => {
               <div className="w-full flex justify-center item-center">
                 <div className="bg-[#1c1c1c] rounded-2xl flex flex-col gap-4 lg:gap-6 p-4 lg:p-6">
                   <div className="h-80 md:h-[25rem] xl:h-[30rem] w-96 md:w-[34rem] xl:w-[40rem] rounded-xl bg-cover bg-no-repeat bg-[url('/src/assets/images/ppn.png')]">
-                    <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40">
+                    <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black/0 opacity-0 hover:opacity-100 hover:bg-black/40">
                       <a
                         href="/studies/ppn"
                         className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-500 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
@@ -636,7 +636,7 @@ const Homepage = () => {
               <div className="w-full flex justify-center item-center">
                 <div className="bg-[#1c1c1c] rounded-2xl flex flex-col gap-4 lg:gap-6 p-4 lg:p-6">
                   <div className="h-80 md:h-[25rem] xl:h-[30rem] w-96 md:w-[34rem] xl:w-[40rem] rounded-xl bg-cover bg-no-repeat bg-[url('/src/assets/images/tracehut.png')]">
-                    <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black opacity-0 bg-opacity-0 hover:opacity-100 hover:bg-opacity-40">
+                    <div className="w-full h-full relative flex items-center justify-center rounded-md 2xl:rounded-lg bg-black/0 opacity-0 hover:opacity-100 hover:bg-black/40">
                       <a
                         href="/studies/tracehut"
                         className="bg-white hover:bg-[#ff8b48] hover:text-white rounded-full size-14 flex items-center justify-center gap-1.5 hover:gap-3 transition-all duration-500 ease-in-out fill-none stroke-[#344054] hover:stroke-white hover:rotate-90"
