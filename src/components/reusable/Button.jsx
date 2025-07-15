@@ -24,7 +24,7 @@ const HoverButton = ({
     <a
       href={link && link}
       className={`relative px-2 overflow-hidden rounded-md font-medium text-nowrap cursor-pointer ${
-        bg ?? "bg-[#FD5D00]"
+        bg ?? "bg-primary"
       } ${text ?? "text-white"} ${width ?? "w-40"} ${height ?? "h-6"} ${
         hoverBg && hoverBg
       } ${hoverText && hoverText}`}

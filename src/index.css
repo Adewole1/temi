@@ -5,6 +5,8 @@
   --font-inter: "Inter", sans-serif;
   --default-ring-width: 3px;
   --default-ring-color: var(--color-gray-200);
+  --color-primary: #EA6DE8;
+  
 }
 
 @layer base {

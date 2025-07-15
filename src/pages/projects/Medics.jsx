@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
-import HoverButton from "../../components/Button";
+import HoverButton from "../../components/reusable/Button";
 
 const Medics = () => {
   const targetRef = useRef(null);

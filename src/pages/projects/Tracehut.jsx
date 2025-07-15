@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
-import HoverButton from "../../components/Button";
+import HoverButton from "../../components/reusable/Button";
 import centre from "../../assets/images/studies/tracehut/icons/propertycentre.png";
 import pro from "../../assets/images/studies/tracehut/icons/propertypro.png";
 import privatePro from "../../assets/images/studies/tracehut/icons/privateproperty.png";
