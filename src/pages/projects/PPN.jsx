@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
-import HoverButton from "../../components/reusable/Button";
+import { HoverButton } from "../../components/reusable/Button";
 import shopify from "../../assets/images/studies/ppn/icons/shopify.svg";
 import nike from "../../assets/images/studies/ppn/icons/nike.svg";
 import farfetch from "../../assets/images/studies/ppn/icons/farfetch.svg";

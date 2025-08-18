@@ -4,7 +4,10 @@ import Footer from "../components/reusable/Footer";
 
 const Applayout = () => {
   return (
-    <div id="home" className="flex flex-col w-screen relative items-center">
+    <div
+      id="home"
+      className="flex flex-col w-screen relative items-center font-instrument"
+    >
       <Header />
       <div className="relative w-screen flex flex-col items-center">
         <Outlet />

@@ -23,7 +23,7 @@ const HoverButton = ({
   return (
     <a
       href={link && link}
-      className={`relative px-2 overflow-hidden rounded-md font-medium text-nowrap cursor-pointer ${
+      className={`relative flex items-center justify-center px-2 overflow-hidden rounded-md text-nowrap cursor-pointer ${
         bg ?? "bg-primary"
       } ${text ?? "text-white"} ${width ?? "w-40"} ${height ?? "h-6"} ${
         hoverBg && hoverBg
@@ -59,4 +59,23 @@ const HoverButton = ({
   );
 };
 
-export default HoverButton;
+const PrimaryButton = ({ link, buttonText, target = "_blank" }) => {
+  return (
+    <div className="relative inline-block">
+      {/* Moving gradient background */}
+      <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-fuchsia-400 via-purple-500 to-orange-500 bg-[length:300%_300%] animate-moveGradient blur-sm opacity-90"></div>
+      <div className="absolute -inset-0.5 rounded-full bg-gradient-to-r from-orange-500 via-fuchsia-400 to-purple-500 bg-[length:300%_300%] animate-moveGradient-reverse blur-[2px] opacity-70"></div>
+      
+      {/* Button content */}
+      <a
+        href={link && link}
+        target={target && target}
+        className="relative px-3 py-1.5 lg:px-4 lg:py-2 xl:py-2.5 xl:px-5 rounded-full bg-white text-gray-900 hover:bg-transparent hover:text-white transition-all duration-300 shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] flex justify-center items-center font-medium"
+      >
+        {buttonText}
+      </a>
+    </div>
+  );
+};
+
+export { PrimaryButton, HoverButton };

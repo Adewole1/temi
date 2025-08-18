@@ -51,7 +51,6 @@
   --animate-duration: 0.5s;
 }
 
-
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -133,13 +132,72 @@
   animation: slideDown 0.5s forwards;
 }
 
-.header::-moz-selection {
+::-moz-selection {
   /* Code for Firefox */
   color: white;
-  background: #fd5d00;
+  background: var(--color-primary);
 }
 
-.header::selection {
+::selection {
   color: white;
-  background: #fd5d00;
+  background: var(--color-primary);
+}
+
+.testimonials-swiper .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+.testimonials-swiper .swiper-slide {
+  height: auto;
+}
+
+.swiper-pagination {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  gap: 0px;
+}
+
+.testimonials-swiper .swiper-pagination-bullet {
+  width: 64px;
+  height: 3px;
+  background-color: #2524244d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 1;
+  border-radius: 0px;
+  margin: 0 !important;
+  padding: 0;
+}
+
+.testimonials-swiper .swiper-pagination-bullet-active {
+  background-color: white;
+  opacity: 1;
+}
+
+/* .testimonials-swiper .swiper-pagination-bullet-active-main {
+  background-color: #14b66d;
+  opacity: 1;
+  transform: scale(1.2);
+} */
+
+/* .testimonials-swiper .swiper-pagination-bullet-active-prev,
+.testimonials-swiper .swiper-pagination-bullet-active-next {
+  background-color: #14b66d;
+  opacity: 0.7;
+  transform: scale(1.1);
+} */
+
+@media (min-width: 1440px) {
+  .testimonials-swiper .swiper-pagination-bullet {
+    height: 4px;
+  }
+
+  .testimonials-swiper .swiper-pagination-bullet:hover {
+    background-color: var(--color-gray-500);
+  }
 }

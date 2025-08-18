@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useTransform, useScroll } from "framer-motion";
-import HoverButton from "../../components/reusable/Button";
+import { HoverButton } from "../../components/reusable/Button";
 
 const Medics = () => {
   const targetRef = useRef(null);
@@ -208,7 +208,7 @@ const Medics = () => {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <rect width="40" height="40" rx="20" fill="#1C1C1C" />
-                    <g clip-path="url(#clip0_116_92923)">
+                    <g clipPath="url(#clip0_116_92923)">
                       <path
                         d="M20 23.3333V20M20 16.6666H20.0083M28.3333 20C28.3333 24.6023 24.6023 28.3333 20 28.3333C15.3976 28.3333 11.6666 24.6023 11.6666 20C11.6666 15.3976 15.3976 11.6666 20 11.6666C24.6023 11.6666 28.3333 15.3976 28.3333 20Z"
                         stroke="#FD5D00"
@@ -250,7 +250,7 @@ const Medics = () => {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <rect width="40" height="40" rx="20" fill="#1C1C1C" />
-                    <g clip-path="url(#clip0_116_92923)">
+                    <g clipPath="url(#clip0_116_92923)">
                       <path
                         d="M20 23.3333V20M20 16.6666H20.0083M28.3333 20C28.3333 24.6023 24.6023 28.3333 20 28.3333C15.3976 28.3333 11.6666 24.6023 11.6666 20C11.6666 15.3976 15.3976 11.6666 20 11.6666C24.6023 11.6666 28.3333 15.3976 28.3333 20Z"
                         stroke="#FD5D00"
@@ -291,7 +291,7 @@ const Medics = () => {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <rect width="40" height="40" rx="20" fill="#1C1C1C" />
-                    <g clip-path="url(#clip0_116_92923)">
+                    <g clipPath="url(#clip0_116_92923)">
                       <path
                         d="M20 23.3333V20M20 16.6666H20.0083M28.3333 20C28.3333 24.6023 24.6023 28.3333 20 28.3333C15.3976 28.3333 11.6666 24.6023 11.6666 20C11.6666 15.3976 15.3976 11.6666 20 11.6666C24.6023 11.6666 28.3333 15.3976 28.3333 20Z"
                         stroke="#FD5D00"
@@ -332,7 +332,7 @@ const Medics = () => {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <rect width="40" height="40" rx="20" fill="#1C1C1C" />
-                    <g clip-path="url(#clip0_116_92923)">
+                    <g clipPath="url(#clip0_116_92923)">
                       <path
                         d="M20 23.3333V20M20 16.6666H20.0083M28.3333 20C28.3333 24.6023 24.6023 28.3333 20 28.3333C15.3976 28.3333 11.6666 24.6023 11.6666 20C11.6666 15.3976 15.3976 11.6666 20 11.6666C24.6023 11.6666 28.3333 15.3976 28.3333 20Z"
                         stroke="#FD5D00"
